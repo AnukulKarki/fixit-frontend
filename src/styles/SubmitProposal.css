@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 75vw;
+  margin-bottom: 2rem;
+}
+
+.sp-container .sp-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.sp-container .sp-top .topleft {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.sp-container .sp-top .topleft .featured {
+  width: fit-content;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #8fe768;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.sp-container .sp-top .topleft .title {
+  font-size: 20px;
+}
+
+.sp-container .sp-top .topleft .description {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.sp-container .sp-top .topright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  min-height: 10rem;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+  margin-top: 3rem;
+  color: #626161;
+}
+
+.sp-container .sp-top .topright i {
+    min-width: 3rem;
+}
+
+.sp-container .sp-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sp-container .sp-bottom .bottomleft {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.sp-container .sp-bottom .bottomleft .bottomimage {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.sp-container .sp-bottom .bottomleft .bottomimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sp-container .sp-bottom .bottomleft form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-container .sp-bottom .bottomleft form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.sp-container .sp-bottom .bottomleft form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.sp-container .sp-bottom .bottomleft .formbutton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.sp-container .sp-bottom .bottomleft .formbutton .cancel {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #FF5050;
+    cursor: pointer;
+    border: none;
+}
+.cancel{
+  padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #FF5050;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+}
+.submit{
+  padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #8FE768;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+
+}
+.message{
+  padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1aadce;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    margin-right: 10px;
+}
+.status{
+  padding: 0.5rem 2rem;
+  background-color: #FDEFDE;
+  border-radius: 5px;
+  border: 1px solid #FDEFDE;
+  margin-top: -4px;
+}
+.buttons{
+  display: flex;
+  justify-content: end;
+}
+
+
+.sp-container .sp-bottom .bottomleft .formbutton .submit {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #8FE768;
+    cursor: pointer;
+    border: none;
+}
+
+.sp-container .sp-bottom .bottomright {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+}
+
+tr {
+  border: 1px solid #ddd;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+th:last-child,
+td:last-child {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+td:last-child button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.red {
+  background-color: #FF5050;
+  color: #fff;
+}
+
+.green {
+  background-color: #8FE768;
+  color: #fff;
+}
+.workerClick:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .sp-container {
+    width: 80vw;
+  }
+
+  .sp-container .sp-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sp-container .sp-top .topleft {
+    width: 100%;
+  }
+
+  .sp-container .sp-top .topright {
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+    margin-top: 2rem;
+
+  }
+
+  .sp-container .sp-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sp-container .sp-bottom .bottomleft {
+    width: 100%;
+  }
+
+  .sp-container .sp-bottom .bottomright {
+    display: none;
+  }
+}

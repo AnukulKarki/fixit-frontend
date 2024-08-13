@@ -1,0 +1,106 @@
+.jobreq-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobreq-container {
+  width: 60%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 2% auto 5% auto;
+}
+
+.jobreq-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.jobreq-column-l {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.jobreq-row-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.jobreq-row-right button {
+    width: 15%;
+    padding: 10px 0;
+    border: none;
+    background: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.jobreq-row-right button:hover {
+    background: #4cae4c;
+}
+
+.jobreq-row-right button:first-child {
+    background: #FF5050;
+}
+
+.jobreq-row-right button:first-child:hover {
+    background: #FF2020;
+}
+
+.jobreq-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.jobreq-column-l {
+    width: 100%;
+}
+
+.jobreq-column label {
+    padding: 0.5rem 0;
+}
+
+.jobreq-column input, .jobreq-column textarea{
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.jobreq-column input[type="file"] {
+    border: none;
+}
+
+.jobreq-column select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .jobreq-container {
+        width: 90%;
+    }
+    .jobreq-row {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .jobreq-column {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+}

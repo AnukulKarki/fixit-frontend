@@ -1,0 +1,123 @@
+
+
+.job-container {
+    display: flex;
+    justify-content: normal;
+    
+    
+  }
+  
+  .job-container > .left-title {
+    
+    display: flex;  
+    flex-direction: column;
+    margin: 0px;
+  }
+  
+  .job-container > .left-title h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px auto;
+  
+  }
+  .right{
+    
+    margin: 0px;
+
+  }
+  
+   .left-title > .job-box-msg {
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    margin: 5px;
+    padding: 1rem;
+    border: 1px solid black;
+    display: flex;
+  }
+  .profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+  }
+
+  .job-box-msg > h3{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .livechat > .content{
+    border: 1px solid black;
+    
+  }
+  .header{
+    background: #62d566;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.header-data{
+    display: flex;
+    align-items: center;
+
+}
+.header-data > h4{
+    margin-left: 10px;
+}
+
+h4{
+    margin: 0;
+    font-size: 1.2em;
+}
+.livechat > .content{
+    padding: 1em;
+}
+.chat{
+    height: 450px;
+    overflow-y: scroll;
+}
+.name{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0
+}
+.msg{
+    margin-bottom: 1.5em;
+}
+.message-operator .name{
+    color: #5200ff;
+}
+.message-user .name, .message-user .msg{
+    text-align: right;
+    margin-right: 1em;
+}
+.send-container{
+    display: flex;
+    grid-template-columns: 100%;
+    margin: 1em 0 .5em;
+    border-radius: .7em;
+    box-shadow: 4px 4px 17px rgba(0,0,0 ,0.12 );
+}
+.msg-input{
+    padding: 1em;
+    border-top-left-radius: .7em;
+    border-bottom-left-radius: .7em;
+    border: 1px solid grey;
+    width: 85%;
+
+}
+.msg-send{
+    width: 15%;
+    padding: 1em;
+    background: #5200ff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-top-right-radius:.7em ;
+    border-bottom-right-radius:.7em ;
+    cursor: pointer;
+}

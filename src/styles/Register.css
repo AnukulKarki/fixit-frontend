@@ -1,0 +1,113 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.head-btn {
+  padding: 10px 25px;
+  border: none;
+  background: #5cb85c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.register-container {
+  width: 80%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 2% auto 5% auto;
+}
+
+.register-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  align-content: center;
+  margin-right: 20px;
+  width: 45%;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  align-content: center;
+}
+
+.form-field input,
+.form-field select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-field select {
+  width: 104%;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #5cb85c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.grp-button {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blue {
+  background: #007bff;
+}
+
+.register-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link {
+  color: #5cb85c;
+}
+
+@media screen and (max-width: 768px) {
+  .register-container {
+    margin-top: 5%;
+  }
+  .form-field {
+    width: 90%;
+  }
+  .group {
+    flex-direction: column;
+  }
+  .register-worker-button {
+    margin-top: 20px;
+  }
+}

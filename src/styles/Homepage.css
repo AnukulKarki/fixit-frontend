@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 95vw;
+  margin: auto;
+}
+
+.home-container .home-head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.home-container .home-head .home-left {
+  width: 60vw;
+}
+
+.home-container .home-head .home-left .banner {
+  max-height: 312px;
+  overflow: hidden;
+}
+
+.home-container .home-head .home-left .banner-worker {
+  width: 100%;
+  height: 100%;
+}
+
+.home-container .home-head .home-left .banner img,
+.home-container .home-head .home-left .banner-worker img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.home-container .home-head .home-right .post-div {
+  margin-top: 1rem;
+
+}
+
+.home-container .home-head .home-right .req-post {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+.home-container .home-head .home-right .req-post .post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.home-container .home-head .home-right .req-post .post button {
+  width: auto;
+  padding: 0.6rem 2rem;
+  border: none;
+  background-color: #2679b7;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-container .home-head .home-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container .home-head .home-right .home-info-card {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.home-container .home-head .home-right .category-div {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.home-container .home-head .home-right .category-div .category-1 {
+  padding: 5px;
+}
+
+.home-container .home-head .home-right .category-div .category-1 p,
+.home-container .home-head .home-right .category-div .category-2 p {
+  margin: 0;
+  padding: 5px;
+}
+
+.home-container .home-head .home-right .category-div .category-1 select {
+  width: 100%;
+  padding: 5px;
+  background-color: #f7f7f7;
+}
+
+.home-container .home-head .home-right .category-div .category-2 .budget-row {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-container
+  .home-head
+  .home-right
+  .category-div
+  .category-2
+  .budget-row
+  input {
+  width: 25%;
+  padding: 5px;
+  background-color: #f7f7f7;
+}
+
+.home-container .home-head .home-right .category-div .category-filter {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.home-container .home-head .home-right .category-div .category-filter button {
+  width: auto;
+  padding: 0.6rem 2rem;
+  border: none;
+  background-color: #2679b7;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-container .home-head .home-right .home-info-card p,
+.home-container .home-head .home-right .home-info-card a {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.home-container .home-head .home-right .home-info-card .category,
+.home-container .home-head .home-right .home-info-card .rating {
+  font-size: 15px;
+  padding-top: 2px;
+
+}
+
+.home-container .home-head .home-right .home-info-card a {
+  width: auto;
+  border: none;
+  color: #78c557;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-container .home-head .home-right .home-info-card .card-image img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.home-container .content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.content-left {
+  width: 60vw;
+}
+
+.home-card {
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home-card:hover {
+  background-color: #f8f8f8;
+}
+
+.home-card .featured {
+  font-size: 15px;
+  background-color: #8fe768;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.home-card .title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.home-card .title .name .name-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.home-card .title .name .budget {
+  font-size: 15px;
+  color: #515151;
+}
+
+.home-card .featured,
+.home-card .title,
+.home-card .description,
+.home-card .info,
+.home-card .footer {
+  padding: 5px;
+}
+
+.home-card .info .category {
+  width: auto;
+  padding: 5px 1rem;
+  border: none;
+  background-color: #8fe768;
+}
+
+.home-card .info,
+.home-card .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: #515151;
+}
+
+.home-card .footer button {
+  width: auto;
+  padding: 5px 1rem;
+  border: none;
+  background-color: #8fe768;
+  cursor: pointer;
+}
+
+.home-card .footer button:hover {
+  background-color: #7fde56;
+}
+
+.content-right {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.content-right .title {
+  padding: 1rem 0;
+}
+
+.content-right .brand {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    width: 90%;
+  }
+
+  .home-container .home-head {
+    flex-direction: column;
+  }
+
+  .home-container .home-head .home-left {
+    width: 90%;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+
+  .home-container .home-head .home-right .req-post {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .home-container .home-head .home-right .home-info-card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .home-container .home-head .home-right .category-div {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .home-container .content {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .content-left {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .content-right {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}

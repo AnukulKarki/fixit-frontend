@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-logo {
+  margin-right: 2rem;
+}
+
+.navbar-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.navbar-link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-right form,
+.notification,
+.profile {
+  margin-left: 1rem;
+}
+
+.navbar-right form input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 15px 0 0 15px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.navbar-right form button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+}
+form .navbar-icon img {
+  width: 1rem;
+}
+
+.profile .navbar-icon img,
+.notification .navbar-icon img{
+  width: 2rem;
+}
+
+.logout i {
+  font-size: larger;
+  margin-left: 1rem;
+  cursor: pointer;
+}

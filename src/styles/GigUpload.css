@@ -1,0 +1,94 @@
+.gigupload-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gigupload-container {
+width: 60%;
+padding: 20px;
+background: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+margin: 2% auto 5% auto;
+}
+
+.gigupload-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.gigupload-column-l {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.gigupload-row-right {
+  display: flex;
+  justify-content: flex-end;
+  
+  margin-top: 1rem;
+}
+
+.gigupload-row-right button {
+  width: 15%;
+  padding: 5px 0;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.redCancel{
+  background: #d9534f;
+}
+.greenPost{
+  background: #5cb85c;
+
+}
+
+.gigupload-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.gigupload-column-l {
+  width: 100%;
+}
+
+.gigupload-column label {
+  padding: 0.5rem 0;
+}
+
+.gigupload-column input, .gigupload-column select, .gigupload-column textarea{
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.gigupload-column input[type="file"] {
+  border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .gigupload-container {
+      width: 90%;
+  }
+  .gigupload-row {
+      flex-direction: column;
+      margin-bottom: 0;
+  }
+  .gigupload-column {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+  
+}
